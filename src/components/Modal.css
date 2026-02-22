@@ -1,0 +1,15 @@
+.small
+{
+    margin: 0 auto;
+    cursor: pointer;
+    width: 40%;
+    filter:sepia(2);
+}
+.big
+{
+    box-shadow: 0px 0px 11px 2px grey;
+    margin: 20px 10%;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 80%;
+}
