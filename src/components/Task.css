@@ -1,0 +1,60 @@
+.task
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border: 1px solid #9932CC;
+    border-radius: 8px;
+    width: 500px;
+    background-color: #D8BFD8;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.task-text {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.task-text.done {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-button {
+    margin-right: 15px;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    background-color: #fff;
+    color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.task-button:hover {
+    background-color: #e6f0ff;
+}
+
+/* Стили для галочки */
+.task-checkmark {
+    color: green;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-left: 5px;
+}
+
+.task-icon {
+    width: 135px; /* Размер картинки */
+    height: 140px;
+    margin-left: 15px; /* Отступ от кнопки/галочки */
+}
